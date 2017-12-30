@@ -21,4 +21,18 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
   font-size: 5rem;
+  margin-top: 2rem;
+}
+.subtittle-input {
+color: rgb(255, 136, 0);
+}
+.put {
+  outline: 1px solid red;
+}
+hr {
+  margin-top: 1rem;
+  border: 1.5px solid #fff;
+}
+.image-responsive {
+  max-width: 100%
 }
