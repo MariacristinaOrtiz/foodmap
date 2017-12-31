@@ -44,9 +44,7 @@ La web-app contiene:
 
 ## EStructuras de guía
 
-![vista splash](assets/docs/img1.jpg)
-
-![vista principal](assets/docs/img2.jpg)
-
-![vista principal](assets/docs/img3.jpg)
-![vista principal](assets/docs/im4.jpg)
+![vista splash](assets/docs/img1.jpg);
+![vista principal](assets/docs/img2.jpg);
+![vista principal](assets/docs/img3.jpg);
+![vista principal](assets/docs/im4.jpg);
