@@ -1,7 +1,7 @@
 
 // Data de los restaurantes(tipo de comida por paises)
 var restaurants = {
-  'comida argentina': [
+  'argentine food': [
     {url: 'a.costumbres.argentina1.png',
       name: 'Costumbres Argentinas',
       map: '<iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7139664373262!2d-77.02021668573141!3d-12.131712746788308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b7fdba135dcf%3A0x2a09ac470411ad13!2sCostumbres+Argentinas!5e0!3m2!1ses!2spe!4v1514730840174" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>',
@@ -35,7 +35,7 @@ var restaurants = {
       phone: '(01) 7119898',
       reservations: 'https://lima.restorando.com.pe/restaurante/la-vaca-loca?utm_campaign=place-actions&utm_medium=organic&utm_source=google'}
   ],
-  'comida peruana': [
+  'peruvian food': [
     {url: 'b.aromasperuanos.peru1.png',
       name: 'Aromas Peruanos',
       map: '<iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.191182460743!2d-77.01525468573189!3d-12.099060646168418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c877ac11be63%3A0x26764ba130df3487!2sAromas+Peruanos!5e0!3m2!1ses!2spe!4v1514737107243" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>',
@@ -69,7 +69,7 @@ var restaurants = {
       phone: '(01) 4410183',
       reservations: 'http://lima.restorando.com.pe/restaurante/el-senorio-de-sulco?utm_version=emmett&utm_campaign=place-actions&utm_medium=organic&utm_source=google'},
   ],
-  'comida mexicana': [
+  'mexican food': [
     {url: 'c.aguaparachocolate.mexico1.png',
       name: 'Como Agua para Chocolate',
       map: '<iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124829.88111945873!2d-77.10138173143022!3d-12.116683077617454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c842cdcb6a2d%3A0x6c6904bb3114f66a!2sComo+Agua+para+Chocolate!5e0!3m2!1ses!2spe!4v1514738342867" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>',
@@ -103,7 +103,7 @@ var restaurants = {
       phone: '(01) 2730425',
       reservations: 'http://www.'},
   ],
-  'comida colombiana': [
+  'colombian food': [
     {url: 'd.cafe.colombia1.png',
       name: 'Cafe colombia',
       map: '<iframe class="img-responsive"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124830.54201192761!2d-77.10138256189795!3d-12.115270032268656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81bfbbbddd9%3A0x7cbaf89fd65677c4!2sCaf%C3%A9+Colombia!5e0!3m2!1ses!2spe!4v1514738876808" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>',
@@ -137,7 +137,7 @@ var restaurants = {
       phone: '994 112 950',
       reservations: 'http://laterrazacurrambera.negocio.site/'},
   ],
-  'comida japonesa': [
+  'japanese food': [
     {url: 'e.edosushi.japon1.png',
       name: 'Edo sushi Bar',
       map: '<iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124862.93129090632!2d-77.0268691097527!3d-12.045818863218106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c822d93982fb%3A0x379c1b9b24b17350!2sEdo+Sushi+Bar+Miraflores!5e0!3m2!1ses!2spe!4v1514739312101" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>',
@@ -171,7 +171,7 @@ var restaurants = {
       phone: '(01) 5935689',
       reservations: 'https://www.facebook.com/NarutoJapaneseFood/info'},
   ],
-  'comida arabe': [
+  'arabic food': [
     {url: 'f.azhar.arabe1.png',
       name: 'Azhar',
       map: '<iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.013085527474!2d-77.03923798573176!3d-12.111256546399792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c83ee52e0be7%3A0xe9aeca41dd0d992b!2sAzahar!5e0!3m2!1ses!2spe!4v1514739750276" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>',

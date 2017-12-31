@@ -5,20 +5,10 @@
   margin: 0;
   padding: 0;
 }
+/* ------ETIQUETAS REUTILIZABLES---*/
 .background-color {
   background-color: rgb(60, 60, 60);
   color: #fff;
-}
-.color {
-  color:rgb(50, 50, 50);;
-}
-.height {
- height: 100vh;
-}
-.flex {
-  display: flex;
-	justify-content: center;
-  align-items: center;
 }
 .tittle {
   color: rgb(255, 136, 0);
@@ -27,16 +17,38 @@
   font-size: 5rem;
   margin-top: 2rem;
 }
-.subtittle-input {
-color: rgb(255, 136, 0);
+/*--FIN ESTILOS REUTILIZABLES--*/
+/* ESTILOS AL BODY PARA LA VISTA PRINCIPAL Y SPLASH*/
+.height {
+ height: 100vh;
 }
-.put {
-  outline: 1px solid red;
+/* ESTILOS AL BODY DE LA VISTA SPLASH*/
+.flex {
+  display: flex;
+	justify-content: center;
+  align-items: center;
 }
+/* ESTILOS AL HEADER*/
 hr {
   margin-top: 1rem;
   border: 1.5px solid #fff;
 }
-.image-responsive {
+/* ESTILOS A FIRST SECTION*/
+.subtittle-input {/* texto food near you*/
+color: rgb(255, 136, 0);
+}
+.image-responsive {/* Al mapa en la primera seccion*/
   max-width: 100%
+}
+/* ESTILOS AL MODAL*/
+.background-color-modal {
+  background:linear-gradient( rgb(40, 40, 40) 10%, rgb(130, 130, 130));
+}
+.close-icon {
+ font-size: 4rem;
+ color: #fff;
+}
+.background-color-button {
+  background-color: rgb(10, 10, 10);
+  color: #fff;
 }
