@@ -47,10 +47,10 @@ $(document).ready(function() {
       $figureFood.eq(i).on('click', function() {
         $.each(restaurants, function(key, val) {
           if ($figureFood.eq(i).children().attr('alt') === val[i].url) {
-            $restaurant.append(val[i].name);
-            $map.append(val[i].map);;
-            $address.append(val[i].address);
-            $phone.append(val[i].phone);
+            $restaurant.text(val[i].name);
+            $map.html(val[i].map);;
+            $address.text(val[i].address);
+            $phone.text(val[i].phone);
             $indications.attr('href', val[i].indications);
             $website.attr('href', val[i].website);
             $reservations.attr('href', val[i].reservations);
